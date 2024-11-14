@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Фред Дерст",
+    "phone": "+7895645334",
+    "email": "paparoach@gmail.com"
+  },
+  {
+    "id": "2",
+    "name": "Фаллоут Бой",
+    "phone": "+7845932267",
+    "email": "panic-at-the-disco@gmail.com"
+  },
+  {
+    "id": "3",
+    "name": "Честер Беннигтон",
+    "phone": "+7985342212",
+    "email": "emili-armstrong@gmail.com"
+  }
+]
