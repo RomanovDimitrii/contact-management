@@ -7,11 +7,18 @@
 - Поиск по контактам
 - Хранение данных в localStorage
 
-**СтекЖ**
-Vue 3, Pinia, TS, TailwindCSS
+**Стек**
+Vue 3, Pinia, TS, TailwindCSS, Vitest
 
 **Сайт**
-https://romanovdimitrii.github.io/furniture-store/
+https://romanovdimitrii.github.io/contact-management/
+
+**Запуск проекта**
+
+- git clone git@github.com:RomanovDimitrii/contact-management.git
+- npm install
+- npm run dev
+- npm run test
 
 ```
 
