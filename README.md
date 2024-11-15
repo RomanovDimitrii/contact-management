@@ -1,24 +1,18 @@
-# contact-management
+# Проект Contact-management
 
-## Project setup
-```
-npm install
-```
+**Реализован функционал:**
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- вывод контактов
+- Добавление/удаление/редактирование контактов
+- Поиск по контактам
+- Хранение данных в localStorage
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**СтекЖ**
+Vue 3, Pinia, TS, TailwindCSS
 
-### Lints and fixes files
-```
-npm run lint
+**Сайт**
+https://romanovdimitrii.github.io/furniture-store/
+
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
