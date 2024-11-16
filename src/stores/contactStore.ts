@@ -24,10 +24,13 @@ export const useContactStore = defineStore('contactStore', () => {
   const fetchContacts = async (): Promise<void> => {
     if (contacts.value.length === 0) {
       try {
-        const response = await fetch('/mockData.json');
+        const response = await fetch(`${process.env.BASE_URL}mockData.json`);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
         const data: Contact[] = await response.json();
         contacts.value = data;
-        saveContacts(); // Сохраняем в localStorage
+        saveContacts();
       } catch (error) {
         console.error('Ошибка при загрузке контактов:', error);
       }
